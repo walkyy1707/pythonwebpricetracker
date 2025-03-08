@@ -1,0 +1,33 @@
+Dependencies
+Install required libraries:
+
+pip install requests beautifulsoup4
+
+Running the Program:
+
+python price_tracker.py
+
+Adding a Product
+Website Selection: Choose a website (e.g., "Amazon") from the dropdown, or select "Custom" for manual entry.
+
+URL: Enter the product URL.
+
+Selectors: Price and availability selectors auto-fill for predefined sites; otherwise, enter them manually.
+
+Alert Threshold: Optionally set a price threshold (e.g., 100 for $100).
+
+Add: Click "Add Product" to save it to the database.
+
+Tracking
+Interval: Set the tracking interval in minutes (default is 60).
+
+Start: Click "Start Tracking" for automatic scraping.
+
+Manual Scrape: Use "Scrape Now" to test immediately.
+
+Price Alerts
+If the scraped price falls below the alert threshold, a popup appears (e.g., "Price dropped below 100 for [URL]").
+
+History Viewer
+Double-click "View History" in the product table to see the last 100 price entries in a new window.
+

@@ -1,0 +1,19 @@
+Enhanced Price Tracker Features
+1. Price Alerts
+Purpose: Notify users when a product’s price drops below a user-defined threshold.
+
+Implementation: Add an alert threshold field to the product database, allow users to input it via the GUI, and trigger a popup when the condition is met during scraping.
+
+2. History Viewer
+Purpose: Let users view the price history of a tracked product.
+
+Implementation: Add a button in the product table to open a new window displaying the price history stored in the database.
+
+3. Predefined Selectors
+Purpose: Simplify adding products from popular websites by auto-filling CSS selectors.
+
+Implementation: Provide a dropdown with predefined selectors for sites like Amazon and eBay, while allowing custom entries.
+
+Versatility
+The code uses configurable CSS selectors instead of hardcoding website-specific logic, making it adaptable to any site.
+
